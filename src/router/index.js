@@ -10,6 +10,7 @@ const routes = [
     name: 'MainLayout',
     meta:{title: '首页'},
     component: () => import('../views/layout/MainLayout.vue'),
+    children: []
   },
   {
     path: '/login',

@@ -1,12 +1,15 @@
 <template>
   <div class="header-view">
-
+    <Breadcrumb />
   </div>
 </template>
 
 <script>
-
+import Breadcrumb from "@/components/Breadcrumb/index.vue";
 export default {
+  components: {
+    Breadcrumb,
+  },
   data() {
     return {
 

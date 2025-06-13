@@ -29,7 +29,9 @@ export default {
 </script>
 
 <style>
-.el-breadcrumb{
+.breadcrumb{
+  margin-left: 5px;
+  margin-top: 5px;
   line-height: 3;
 }
 </style>
