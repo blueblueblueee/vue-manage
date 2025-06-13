@@ -1,0 +1,24 @@
+#module .el-aside{
+    height: 100vh;
+    background-color: #333444;
+}
+#module .el-aside ul {
+    background-color: #333444;
+}
+#module .el-aside ul li{
+    color: #fff;
+}
+.el-menu :hover{
+    background-color: black;
+}
+li.el-menu-item.is-active{
+    background-color:  grey;
+}
+
+
+.el-submenu__title {
+    color: #fff;
+}
+.el-submenu :hover {
+    background-color: black;
+}
