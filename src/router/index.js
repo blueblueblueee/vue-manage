@@ -18,12 +18,6 @@ const routes = [
     meta:{title: '登录'},
     component: () => import('../views/login/index.vue')
   },
-  {
-    path: '/about',
-    name: 'about',
-    meta:{title: '关于'},
-    component: () => import('../views/about/AboutView.vue')
-  },
 
 ]
 
